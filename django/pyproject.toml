@@ -6,17 +6,17 @@ authors = ["Mapswipe <info@mapswipe.org>"]
 license = "Apache License 2.0"
 
 [tool.poetry.dependencies]
-Django = "^4.1.9"
+Django = "^4.2.21"
 django-cors-headers = "*"
 django-cte = "*"
 django-environ = "*"
 factory-boy = "^3.2.1"
-gunicorn = "^20.1.0"
+gunicorn = "^23.0.0"
 psycopg2 = "^2.9.3"
 python = "^3.10.2"  # Same as .python-version
 schedule = "^1.1.0"
 sentry-sdk = "*"
-strawberry-graphql = "^0.177"
+strawberry-graphql = "^0.258"
 strawberry-django-plus = "*"
 
 [tool.poetry.dev-dependencies]
